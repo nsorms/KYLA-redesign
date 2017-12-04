@@ -1,0 +1,48 @@
+/* CSS Stylesheet */
+
+body{
+
+}
+
+img {
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+nav {
+  width: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    width: 4000px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline;
+    padding: 7px 80px;
+    background-color: #5b5b5b
+}
+
+a:link {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: blue;
+  color: white;
+}
