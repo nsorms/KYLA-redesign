@@ -4,6 +4,16 @@ body{
 
 }
 
+#banner {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  padding: 40px ;
+  text-align: center;
+}
+
 img {
   overflow: hidden;
   padding-bottom: 5px;
@@ -11,12 +21,13 @@ img {
 
 nav {
   width: 1000px;
+  height: auto;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0; */
     background-color: #dddddd;
     width: 4000px;
 }
@@ -27,7 +38,7 @@ li {
 
 li a {
     display: inline;
-    padding: 7px 80px;
+    padding: 7px 60px;
     background-color: #5b5b5b
 }
 
@@ -45,4 +56,9 @@ a:hover {
   text-decoration: underline;
   background-color: blue;
   color: white;
+}
+
+section {
+  text-align: center;
+  margin: 20px;
 }
