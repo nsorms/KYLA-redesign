@@ -58,6 +58,11 @@ a:hover {
   color: white;
 }
 
+#slideshow {
+  width: 50%;
+  height: 50%;
+}
+
 section {
   text-align: center;
   margin: 20px;
